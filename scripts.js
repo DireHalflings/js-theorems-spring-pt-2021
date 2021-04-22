@@ -1,5 +1,3 @@
-console.log("Greetings!");
-
 /*
 1. Pythagorean theorem
 
@@ -14,9 +12,7 @@ Write a function that will:
     Return the missing side c from the function.
 */
 
-const pythTheorem = () => {
-
-}
+const pythTheorem = () => {};
 
 console.log(pythTheorem());
 
@@ -38,9 +34,7 @@ Write a function that will:
     If Major Tom's engines can overcome the speed return true, else return false.
 */
 
-const starEscapePossible = () => {
-    
-}
+const starEscapePossible = () => {};
 
 console.log(starEscapePossible);
 
@@ -58,9 +52,7 @@ Write a function that will:
     If the user guesses wrong execute the function inside of itself.
 */
 
-const shellGame = () => {
-
-}
+const shellGame = () => {};
 
 console.log(shellGame());
 
@@ -76,9 +68,7 @@ Write a function that will:
     Return the answer from the function.
 */
 
-const calculator = () => {
-
-}
+const calculator = () => {};
 
 console.log(calculator());
 
@@ -98,9 +88,7 @@ Write a function that will:
     If neither state is true, call the function into itself with the new health amounts.
 */
 
-const encounter = () => {
-    
-}
+const encounter = () => {};
 
 console.log(encounter());
 
@@ -121,11 +109,9 @@ Write a function that will:
     Return a string in the right order.
 */
 
-const unscramble = (word) => {
+const unscramble = (word) => {};
 
-}
-
-console.log(unscramble('nyonca'));
-console.log(unscramble('netreepi'));
-console.log(unscramble('ad setshe'));
-console.log(unscramble('ogrammingpr'));
+console.log(unscramble("nyonca"));
+console.log(unscramble("netreepi"));
+console.log(unscramble("ad setshe"));
+console.log(unscramble("ogrammingpr"));
