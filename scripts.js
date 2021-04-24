@@ -1,4 +1,4 @@
-console.log("Greetings!");
+// console.log("Greetings!");
 
 /*
 1. Pythagorean theorem
@@ -14,11 +14,16 @@ Write a function that will:
     Return the missing side c from the function.
 */
 
-const pythTheorem = () => {
+// ***************************** SOLUTION! ***********************************************
 
-}
+// const pythTheorem = () => {
+//     let side_a = parseFloat(window.prompt("Enter the length of side a: "));
+//     let side_b = parseFloat(window.prompt("Enter the length of side b: "));
+//     let hypotenuse = Math.sqrt((side_a**2) + (side_b**2));
+//     return hypotenuse;
+// }
 
-console.log(pythTheorem());
+// console.log(pythTheorem());
 
 /*
 2. Ground Control to Major Tom
@@ -28,7 +33,7 @@ careful that the gravity isn't more than his engines can handle! If Major Tom is
 a star he will be pulled towards the star at the stars gravity (g) at an increasing
 per second (s). This means that if Major Tom is at a star with a gravity of 30.8 for 10
 seconds he'll be falling towards the star at a speed of 308 m/s! Luckily Major Tom's 
-engines produce a thrust to overcome 400 m/s.
+engines produce a thrust to overcome up to 400 m/s.
 
 The theorem: g * s < 400
 
@@ -38,11 +43,16 @@ Write a function that will:
     If Major Tom's engines can overcome the speed return true, else return false.
 */
 
-const starEscapePossible = () => {
-    
-}
+// ***************************** SOLUTION! ***********************************************
 
-console.log(starEscapePossible);
+// const starsEscapePossible = () => {
+//     let stars_gravity = parseFloat(window.prompt("Enter the star's gravity: "));
+//     let time = parseFloat(window.prompt("Enter how long you will be there (seconds): "));
+//     let escape_possible = stars_gravity * time;
+//     return escape_possible < 400;
+// }
+
+// console.log(starsEscapePossible());
 
 /*
 3. Shell Game
@@ -58,11 +68,19 @@ Write a function that will:
     If the user guesses wrong execute the function inside of itself.
 */
 
-const shellGame = () => {
+// ***************************** SOLUTION! ***********************************************
 
-}
+// const shellGame = () => {
+//     let shell = Math.floor(Math.random()*3) + 1;
+//     let guess = parseInt(window.prompt("Is the object under shell #1, 2, or 3?"));
+//     if (shell == guess) {
+//         alert(`You guessed correctly! The object is under shell #${shell}!`);
+//     }
 
-console.log(shellGame());
+//     shellGame();
+// }
+
+// (shellGame());
 
 /*
 4. The worst calculator
@@ -76,11 +94,32 @@ Write a function that will:
     Return the answer from the function.
 */
 
-const calculator = () => {
+// ***************************** SOLUTION! ***********************************************
 
-}
 
-console.log(calculator());
+// const calculator = () => {
+//     let first_value = parseFloat(window.prompt("Enter the first value: "));
+//     let second_value = parseFloat(window.prompt("Enter the second value: "));
+//     let operation = window.prompt("Add, Subtract, Multiply, Or Divide? ").toLowerCase();
+
+//     if (operation == "add") {
+//         return first_value + second_value;
+//     }
+
+//     if (operation == "subtract") {
+//         return first_value - second_value;
+//     }
+
+//     if (operation == "multiply") {
+//         return first_value * second_value;
+//     }
+
+//     if (operation == "divide") {
+//         return first_value / second_value;
+//     }
+// }
+
+// console.log(calculator());
 
 /*
 5. RPG Combat!
@@ -98,11 +137,44 @@ Write a function that will:
     If neither state is true, call the function into itself with the new health amounts.
 */
 
-const encounter = () => {
-    
-}
+// const encounter = (skeleton_health, player_health) => {
+//     let decision = window.prompt("Select A to attack or H to heal: ").toUpperCase();
 
-console.log(encounter());
+    
+//     if (decision == "A") {
+//         skeleton_health -= 5;
+//         // alert(`Skeleton Health ${skeleton_health}`);
+//         // alert(`Player Health ${player_health}`);
+
+//     }
+
+//     if (decision == "H") {
+//         player_health += 3;
+//         // alert(`Skeleton Health ${skeleton_health}`);
+//         // alert(`Player Health ${player_health}`);
+
+
+//     }
+
+//     player_health -= 5;
+
+//     if (skeleton_health <= 0) {
+//         return "You won!";
+//     }
+
+//     if (player_health <= 0) {
+//         return "You lose!"
+//     }
+
+//     // return is happening multiple func deep, need return to get returns out
+//     // keeps running recursively and has return, need to have return when calling recursively, if you're
+//     // gonna end my function recursively
+//     return encounter(skeleton_health, player_health);
+
+
+// }
+
+// console.log(encounter(10,15));
 
 /*
 6. Messages Recieved
@@ -121,11 +193,23 @@ Write a function that will:
     Return a string in the right order.
 */
 
-const unscramble = (word) => {
 
-}
+// ***************************** SOLUTION! ***********************************************
 
-console.log(unscramble('nyonca'));
-console.log(unscramble('netreepi'));
-console.log(unscramble('ad setshe'));
-console.log(unscramble('ogrammingpr'));
+// const unscramble = (word) => {
+
+
+
+
+//     let split_word = word.split('');
+    
+//     // remove last 2 letters from the array
+//     let remove_letters = split_word.splice(word.length-2, 2);
+
+//     return remove_letters.join('') + split_word.join('');
+// }
+
+// console.log(unscramble('nyonca'));
+// console.log(unscramble('netreepi'));
+// console.log(unscramble('ad setshe'));
+// console.log(unscramble('ogrammingpr'));
