@@ -14,11 +14,17 @@ Write a function that will:
     Return the missing side c from the function.
 */
 
-const pythTheorem = () => {
+// function pythTheorem() {
+//   let a = +prompt("side 1");
+//   let b = +prompt("side 2");
+//   let a2 = a**2;
+//   let b2 = b**2;
+//   let c2 = b2 + a2;
+//   let c = Math.sqrt(c2);
+//   alert(c);
+// }
 
-}
-
-console.log(pythTheorem());
+// pythTheorem();
 
 /*
 2. Ground Control to Major Tom
@@ -38,11 +44,18 @@ Write a function that will:
     If Major Tom's engines can overcome the speed return true, else return false.
 */
 
-const starEscapePossible = () => {
-    
-}
+// const starEscapePossible = () => {
+//     let g = +prompt("Star Gravity");
+//     let s = +prompt("Seconds");
+//     let gxs = g*s;
+//     if (gxs < 400) {
+//       alert("True");
+//     } else if ( gxs >= 400) {
+//       alert("False")
+//     }
+// }
 
-console.log(starEscapePossible);
+// starEscapePossible();
 
 /*
 3. Shell Game
@@ -58,11 +71,17 @@ Write a function that will:
     If the user guesses wrong execute the function inside of itself.
 */
 
-const shellGame = () => {
+// const shellGame = () => {
+//   let  input = prompt("Pick a Number 1-3")
+//   let num = (Math.floor(Math.random() * (3 - 1 + 1)) + 1);
+//   if (input == num) {
+//     alert("You are correct")
+//   } else {
+//     shellGame();
+//   }
+// }
 
-}
-
-console.log(shellGame());
+// shellGame();
 
 /*
 4. The worst calculator
@@ -76,11 +95,23 @@ Write a function that will:
     Return the answer from the function.
 */
 
-const calculator = () => {
+// const calculator = () => {
+//   let num1 = +prompt("Num 1");
+//   let num2 = +prompt("Num 2");
+//   let op = prompt("add, subtract, divide, or multiply these numbers");
+//   if (op = "add") {
+//     alert(num1+num2);
+//   }else if (op = "subtract") {
+//     alert(num1-num2);
+//   }else if (op = "divide") {
+//     alert(num1/num2);
+//   }else if (op = "multiply") {
+//     alert(num1*num2);
+//   }
 
-}
+// }
 
-console.log(calculator());
+// calculator();
 
 /*
 5. RPG Combat!
@@ -98,11 +129,32 @@ Write a function that will:
     If neither state is true, call the function into itself with the new health amounts.
 */
 
-const encounter = () => {
-    
-}
 
-console.log(encounter());
+// const encounter = (playerHealth,skelliHealth) => {
+//     let turnAction = prompt("Would you like to 'Attack' or 'Heal'");
+//     if (turnAction == "Attack") {
+//       skelliHealth = skelliHealth-5;
+//       alert("Skelli HP " + skelliHealth);
+//       alert( "Player HP " + playerHealth);
+//     } else if (turnAction == "Heal") {
+//       playerHealth = playerHealth + 3;
+//       alert("Skelli HP " + skelliHealth);
+//       alert( "Player HP " + playerHealth);
+//     }
+//     playerHealth = playerHealth - 5;
+//     alert("You have taken 5 damage your HP is now: " + playerHealth);
+//     if (skelliHealth <= 0) {
+//       alert("You won!");
+//     } else if (playerHealth <= 0) {
+//       alert("You lost!");
+//     } else {
+//       encounter(playerHealth,skelliHealth);
+//     }
+// }
+
+// encounter(10,20);
+
+
 
 /*
 6. Messages Recieved
@@ -121,11 +173,16 @@ Write a function that will:
     Return a string in the right order.
 */
 
-const unscramble = (word) => {
+// function unscramble() {
+//   let word = prompt("enter word");
+//   alert(word);
+//   wordlengthno2 = (word.length)-2;
+//   alert(wordlengthno2);
+//   last2 = word.slice(-2);
+//   halfword = word.slice(0,wordlengthno2);
+//   alert(halfword);
+//   fullword = last2 + halfword;
+//   alert(fullword);
+// }
 
-}
-
-console.log(unscramble('nyonca'));
-console.log(unscramble('netreepi'));
-console.log(unscramble('ad setshe'));
-console.log(unscramble('ogrammingpr'));
+// unscramble();
